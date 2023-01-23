@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+
+        <title>Encriptador-Desencriptador-Responsivo</title>
+
+        <link rel="stylesheet" href= "reset.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <div>
+
+                <h1 class="logo"><a href="index.html"><img src="imagenes/logo/Logo.png" alt="Logo de Alura"></a></h1>
+
+            </div>
+
+        </header>
+
+        <main>
+
+            <div>
+
+                <textarea class="parrafo1" cols="75" rows="3" id="mensaje" required placeholder="Ingrese el texto aqui" autofocus></textarea>
+
+            </div>
+
+            <div>
+
+                <p class = "parrafo2"></p>
+
+            </div>
+
+            <div class ="rectanguloDerecho">
+
+                <div class="parrafo3"></div>
+
+                <div>
+
+                    <button onclick = "boton3()" class="copiar">Copiar</button>
+
+                </div>
+                <div>
+
+                    <button class="copiar2">Copiado</button>
+
+                </div>
+
+                <div class="muneco"><img src="imagenes/muneco.svg" alt="Logo de Mensaje no encontrado"></div>
+
+                <div class="mensaje">
+
+                    <p class="noEncontrado">Ningún mensaje fue encontrado</p>
+
+                    <p class="ingresaTexto">Ingresa el texto que deseas encriptar o desencriptar</p>
+
+                </div>
+
+            </div>
+
+            <div class="advertencia">
+
+                <img class="imagenAdv" src="imagenes/exclamation-mark.png">
+
+                <p class="textAdv">Solo letras minúsculas y sin acentos</p>
+
+            </div>
+
+            <div class="cajabotones">
+
+                <div>
+
+                    <button onclick = "boton1()" class="encriptar">Encriptar</button>
+
+                </div>
+
+                <div>
+
+                    <button onclick = "boton2()" class="desencriptar">Desencriptar</button>
+
+                </div>     
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="footer">
+        
+                <p>&copy 2023 Todos los derechos reservados"</p>
+            
+            </div>
+
+        </footer>   
+        
+    </body>
+    
+</html>
+
